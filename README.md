@@ -1,6 +1,7 @@
 # Timing_irregularities
 Codes and data realease corresponding to "Timing irregularities in the glitching pulsar monitoring campaign at the IAR"
 
+About the data release, we present the .par and .tim that we used for our work. We also present as "JXXXX-XXXX_glitch.par" the characterization of the three giant glitches with their respectives recovery terms.
 
 "windows_jumps.py" is a PINT-based algorithm used to look for irregularities in timing data. It calculates F0 and F1 jump for two consecutive windows of L days, if there is a minimum of N_min ToAs inside each and report significant changes in F0. Thresh is the minimum size of the detections that we want to report, we set it to 0.
 
